@@ -1,0 +1,35 @@
+{
+  "id": "796fe86c-99e5-48fe-863a-211161ce465e",
+  "version": "2.0",
+  "name": "testGoogel",
+  "url": "https://www.taobao.com/",
+  "tests": [{
+    "id": "9e1546cd-cd2f-45ec-8570-eb1eda59a287",
+    "name": "Google-首页",
+    "commands": [{
+      "id": "a311d309-6fd9-4696-a2e4-c5e05b087267",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "90010e66-cd3b-45d7-a0cb-f72e17454966",
+      "comment": "查看适配屏幕型号",
+      "command": "set window size 1280*800",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "73a00d7c-0650-4801-84f0-993e499f445a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9e1546cd-cd2f-45ec-8570-eb1eda59a287"]
+  }],
+  "urls": ["https://www.taobao.com/"],
+  "plugins": []
+}
